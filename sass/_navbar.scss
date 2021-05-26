@@ -1,0 +1,41 @@
+
+.navbar{
+    background: rgb(240, 216, 0);
+    box-shadow: 10px 5px 5px black;
+    padding: 10px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > .mensaje-bienvenida{
+        display: flex;
+        padding-right: 10px;
+        align-items: center;
+    }
+
+
+}
+
+.menu{
+    list-style: none;
+
+}
+
+.item-menu{
+    margin: 0px 10px 0px 10px;
+    font-weight: 600;
+
+    user-select: none;
+
+    &:hover{
+        color: whitesmoke;
+        text-shadow: 1px 1px 3px black;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+    }
+
+    &:active{
+        color: white;
+    }
+}

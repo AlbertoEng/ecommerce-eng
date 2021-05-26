@@ -1,0 +1,120 @@
+
+@import 'base';
+@import 'appbar';
+@import 'main';
+@import 'navbar';
+
+.containerPage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.flex{
+    display: flex;
+}
+
+.hover-eng{
+    color: whitesmoke;
+    text-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+.pl-5{
+    margin-right: 20px;
+}
+
+.text-bold{
+    font-weight: 600;
+}
+
+.btn{
+    padding: 10px;
+    background: none;
+    border-radius: 5px;
+    border: solid 1px gray
+
+    
+}
+
+.btn:hover{
+    background: red;
+    color: white;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.section{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items-carrito{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.card{
+    background: rgb(250, 247, 243);
+    width: 250px;
+    min-width: 250px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 0px 20px;
+
+    &:hover{
+        box-shadow: 0px 2px 5px black;
+        cursor: pointer;
+    }
+}
+
+.card-image{
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+
+}
+
+.card-description{
+    padding: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-precio{
+    font-weight: 600;
+}
+
+.btn-primary{
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+    width: 80%;
+    margin-top: 10px;
+
+    &:hover{
+        background: rgb(25, 159, 248);
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+}
+
+.comprar{
+    display: block;
+
+    bottom: 0px;
+}
